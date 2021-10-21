@@ -1,0 +1,119 @@
+.projects__point {
+    position: absolute;
+    left: -55px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    color: grey;
+    display: none;
+  }
+  
+  .projects__point--single::before {
+    content: '\E803';
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(90deg);
+    font-family: "Fontello";
+  }
+  
+  .projects__point--single::after {
+    content: '\E803';
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(90deg);
+    font-family: "Fontello";
+  }
+  
+  .projects__point--nested::before {
+    content: '\E803';
+    position: absolute;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(90deg);
+    font-family: "Fontello";
+  }
+  
+  .projects__point--active {
+    display: block;
+  }
+  
+  .projects__item {
+    position: relative;
+    margin: 10px 0 0px 5px;
+    padding: 5px 0;
+  }
+  
+  .projects__item--selected {
+    font-weight: 600;
+    background-color: white;
+  }
+  
+  .projects__item::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: grey;
+  }
+  
+  .projects__link {
+    position: relative;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .projects__drop::before {
+    content: '\E802';
+    position: absolute;
+    top: -2px;
+    left: -40px;
+    display: block;
+    width: 18px;
+    height: 100%;
+    font-family: "Fontello";
+    text-align: center;
+    color: black;
+  }
+  
+  .projects__drop--down::before {
+    content: '\E800';
+    position: absolute;
+    top: -2px;
+    left: -40px;
+    display: block;
+    width: 18px;
+    height: 100%;
+    font-family: "Fontello";
+    text-align: center;
+    color: black;
+  }
+
+  .projects__context-menu-link {
+    position: absolute;
+    top: 3px;
+    left: 90%;
+    display: block;
+    height: 15px;
+    width: 20px;
+    font-family: "Fontello";
+    text-decoration: none;
+    display: none;
+  }
+  
+  .projects__context-menu-link::before {
+    content: '\E803';
+    color: grey;
+    text-align: center;
+  }
+  
+  .projects__context-menu-link--active {
+    display: block;
+  }

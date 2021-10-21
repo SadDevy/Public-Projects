@@ -1,0 +1,55 @@
+.table__add-button {
+    display: block;
+
+    position: absolute;
+    top: 13px;
+    left: 222px;
+}
+
+.add-button {
+    width: 150px;
+
+    background-color: lightgray;
+
+    border: 2px solid #000;
+    border-radius: 5px;
+
+    text-decoration: none;
+    text-align: center;
+
+    color: #fff;
+}
+
+.add-button:hover {
+    border: 2px solid #fff;
+    background-color: gray;
+}
+
+@media screen and (max-width: 610px) {
+    .table__add-button {
+        left: 180px;
+    }
+}
+
+ @media screen and (max-width: 500px) {
+    .table__add-button {
+        left: 150px;
+    }
+
+    .add-button {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .table__add-button {
+        left: 110px;
+    }
+} 
+
+
+@media screen and (max-width: 281px) {
+    .table__add-button {
+        left: 90px;
+    }
+}

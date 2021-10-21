@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: seashell;
+
+    height: 500px;
+}
+
+@font-face {
+    font-family: "Fontello";
+    src: url(./fonts/fontello.ttf);
+}
+  

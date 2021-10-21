@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tree</title>
+
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <section class="content">
+        <div id="menu" class="menu">
+        </div>
+    </section>
+
+    <script src="js/ProjectsTree.js"></script>
+    <script src="js/Alert.js"></script>
+    <script>
+        let menu = document.getElementById('menu');
+        let projects = {
+            "Personal": {
+                "Something": {}
+            },
+            "Work": {},
+            "Errands": {},
+            "Movies to watch": {
+                "Sports": {},
+                "Comedy": {
+                    "Family comedy": {},
+                    "Teen comedy": {}
+                }
+            },
+            "Shopping": {}
+        };
+
+        let tree = new ProjectsTree(menu, projects);
+        tree.createProjectsTree();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Translate</title>
+</head>
+<body>
+    <section class="translate-container">
+        <div class="translate-container__translate translate">
+            <div class="translate__translate-places translate-places">
+                <div class="translate-places__input input">
+                    <div class="input__header input-header">
+                        <div class="input-header__cancel-btn cancel-btn cancel-btn--disabled"></div> 
+                        <div class="input-header__wrapper input-header-wrapper">
+                            <div class="input-header__input-languages-panel input-languages-panel input-languages-panel--hidden">
+                                <div class="input-languages-panel__recent-languages"></div>
+                                <div class="input-languages-panel__available-languages available-languages"></div>
+                            </div>
+                        </div>
+                        <div class="input-header__language" data-language="English"></div>
+                    </div>
+                    <div class="input__body input-body">
+                        <textarea class="input-body__input-place"></textarea>
+                        <div class="input-body__footer">
+                            <span class="input-body__words-counter">
+                                0 / 10000
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="translate-places__switch switch">
+                    <div class="switch__btn"></div>
+                </div>
+                <div class="translate-places__output output">
+                    <div class="output__header output-header">
+                        <div class="output-header__wrapper output-header-wrapper">
+                            <div class="output-header__output-languages-panel output-languages-panel output-languages-panel--hidden">
+                                <div class="output-languages-panel__recent-languages"></div>
+                                <div class="output-languages-panel__available-languages"></div>
+                            </div>
+                        </div>
+                        <div class="output-header__language" data-language="Russian"></div> 
+                        <div class="output-header__copy-btn copy-btn copy-btn--disabled"></div>
+                    </div>
+                    <div class="output__body output-body">
+                        <textarea class="output-body__output-place" disabled></textarea>
+                        <div class="output-body__footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="source-synonyms-container source-synonyms--hidden">
+            <div class="source-synonyms__header">
+                Связанные слова
+            </div>
+            <div class="source-synonyms__body"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/LanguagesPanel.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

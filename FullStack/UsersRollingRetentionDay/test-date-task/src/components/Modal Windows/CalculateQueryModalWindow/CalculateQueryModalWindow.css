@@ -1,0 +1,239 @@
+@font-face {
+    font-family: Fontello;
+    src: url(../../../fonts/fontello.ttf);
+}
+
+.calculate-query-modal-window {
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    height: 200px;
+    width: 500px;
+    z-index: 9999;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .calculate-query-modal-window__title {
+    position: relative;
+    padding: 15px;
+    height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .calculate-query-modal-window__closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+  }
+  
+  .calculate-query-modal-window__closeBtn:hover::before {
+    color: gray;
+  }
+  
+  .calculate-query-modal-window__closeBtn::before {
+    content: '\E805';
+    display: block;
+    height: 30px;
+    width: 30px;
+    font-family: "Fontello";
+    font-size: 25px;
+    text-align: center;
+    color: lightgray;
+  }
+  
+  .calculate-query-modal-window__content {
+    padding: 20px;
+    height: calc(100% - 90px);
+    color: gray;
+  }
+  
+  .calculate-query-modal-window__cancelBtn {
+    position: absolute;
+    bottom: 15px;
+    right: 160px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: gray;
+    border: 1px solid lightgray;
+  }
+  
+  .calculate-query-modal-window__cancelBtn:hover {
+    background-color: lightgray;
+    color: white;
+  }
+  
+  .calculate-query-modal-window__calculateBtn {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    padding: 10px;
+    display: block;
+    width: 120px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: #ffffff;
+    border: 1px solid lightgray;
+    background-color: gray;
+
+    text-align: center;
+  }
+  
+  .calculate-query-modal-window__calculateBtn:hover {
+    background-color: lightgray;
+  }
+
+  .retention-day {
+      position: absolute;
+      top: 75px;
+
+      font-size: 15px;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+
+  input {
+    border: none;
+    outline: none;
+    outline-offset: none;
+  }
+
+  .retention-day__input {
+      position: absolute;
+      top: -5px;
+      left: 220px;
+
+      width: 250px;
+      height: 24px;
+      
+      font-size: 16px;
+      color: gray;
+      border: 1px solid lightgray;
+  }
+
+@media screen and (max-width: 610px) {
+  .calculate-query-modal-window {
+    left: 20%;
+    width: 400px;
+  }   
+
+  .retention-day__input {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .calculate-query-modal-window {
+    left: 50px;
+    width: 350px;
+  }      
+
+  .calculate-query-modal-window__closeBtn {
+    display: none;
+  }
+
+  .retention-day__input {
+    width: 98px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .calculate-query-modal-window {
+    left: 390px;
+  }  
+}
+
+@media screen and (max-width: 1025px) {
+  .calculate-query-modal-window {
+    left: 260px;
+  }  
+}
+
+@media screen and (max-width: 541px) {
+  .calculate-query-modal-window {
+    left: 70px;
+  }  
+}
+
+
+@media screen and (max-width: 415px) {
+  .calculate-query-modal-window {
+    left: 30px;
+  }    
+
+  .retention-day__input {
+    width: 100px;
+  }
+
+  .calculate-query-modal-window__closeBtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .calculate-query-modal-window {
+    width: 260px;
+    height: 220px;
+
+    left: 55px;
+  }    
+
+  .retention-day__input {
+    top: 30px;
+    left: -10px;
+
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  .calculate-query-modal-window {
+    left: 50px;
+  }    
+}
+
+@media screen and (max-width: 321px) {
+  .calculate-query-modal-window {
+    width: 260px;
+    height: 220px;
+
+    left: 30px;
+  }    
+
+  .retention-day__input {
+    top: 30px;
+    left: -10px;
+
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 281px) {
+  .calculate-query-modal-window {
+    width: 260px;
+    height: 220px;
+
+    left: 10px;
+  }  
+
+  .retention-day__input {
+    top: 30px;
+    left: -10px;
+
+    width: 240px;
+  }
+
+}

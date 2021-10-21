@@ -1,0 +1,35 @@
+{
+    "Personal": {
+        "id": 1,
+        "Something": {
+            "id": 6
+        }
+    },
+    "Work": {
+        "id": 2
+    },
+    "Errands": {
+        "id": 3
+    },
+    "Movies to watch": {
+        "id": 4,
+        "Sports": {
+            "id": 7
+        },
+        "Comedy": {
+            "id": 8,
+            "Family comedy": {
+                "id": 9
+            },
+            "Teen comedy": {
+                "id": 10,
+                "Somethig new": {
+                    "id": 11
+                }
+            }
+        }
+    },
+    "Shopping": {
+        "id": 5
+    }
+}

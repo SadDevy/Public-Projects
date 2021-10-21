@@ -1,0 +1,68 @@
+table {
+    margin: 0 auto;
+
+    width: 600px;
+
+    border-collapse: collapse;
+
+    color: #fff;
+}
+
+th {
+    background-color: gray;
+
+    font-size: 20px;
+}
+
+th, td {
+    height: 50px;
+    border: 2px solid #000;
+}
+
+tbody {
+    text-align: center;
+    color: #000;
+}
+
+input {
+    border: none;
+    outline: none;
+    outline-offset: none;
+    
+    height: 100%;
+    width: 100%;
+
+    text-align: center;
+}
+
+tfoot {
+    position: relative;
+    background-color: gray;
+
+    font-size: 20px;    
+    text-align: center;
+}
+
+@media screen and (max-width: 610px) {
+    table {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    table {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    table {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    table {
+        width: 280px;
+    }
+}

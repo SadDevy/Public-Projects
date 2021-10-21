@@ -1,0 +1,31 @@
+.container {
+    height: 100%;
+}
+
+.header-container {
+    height: 18%;
+    background-color: lightgray;
+
+    text-align: center;
+    color: #fff;
+
+    border-bottom: 2px solid #fff;
+}
+
+.header {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.main-container {
+    padding: 50px 0 50px 0;
+
+    background-color: lightgray;
+}
+
+.footer-container {
+    height: 7%;
+    background-color: lightgray;
+
+    border-top: 2px solid #fff;   
+}

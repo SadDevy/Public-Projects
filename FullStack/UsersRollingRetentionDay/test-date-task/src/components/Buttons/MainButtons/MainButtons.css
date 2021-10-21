@@ -1,0 +1,79 @@
+.main__buttons {
+    margin: 0 auto;
+
+    height: 30px;
+    width: 600px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 0;
+}
+
+.buttons__button {
+    display: block;
+    padding-top: 5px;
+
+    width: 150px;
+    height: 25px;
+
+    background-color: #fff;
+
+    border: 2px solid #000;
+    border-radius: 5px;
+
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.buttons__button--disabled {
+    cursor: default;
+    background-color: lightgray;
+    color: #fff;
+    border: 2px solid gray;
+}
+
+.buttons__button:hover {
+    background-color: lightgray;
+    color: #fff;
+}
+
+@media screen and (max-width: 610px) {
+    .main__buttons {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main__buttons {
+        width: 400px;
+    }
+
+    .buttons__button {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main__buttons {
+        width: 300px;
+    }
+
+    .buttons__button {
+        width: 90px;
+    }
+}
+
+
+@media screen and (max-width: 281px) {
+    .main__buttons {
+        width: 280px;
+    }
+
+    .buttons__button {
+        width: 90px;
+    }
+}
